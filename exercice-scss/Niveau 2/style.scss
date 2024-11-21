@@ -1,0 +1,38 @@
+@import "variables";
+@import "mixins";
+
+.team-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.profile-card {
+	@include card;
+}
+
+.profile-card--dev {
+	@extend .profile-card;
+	border: 2px solid $border;
+	background-color: $background-dev;
+	&--lead {
+		@extend .profile-card--dev;
+		border: 2px solid $border-lead;
+	}
+}
+
+.profile-card--design {
+	@extend .profile-card;
+	border: 2px solid $border;
+	background-color: $background-design;
+	&--lead {
+		@extend .profile-card--design;
+		border: 2px solid $border-lead;
+	}
+}
+
+.profile-card--lead {
+	@extend .profile-card;
+	border: 2px solid $border-lead;
+	background-color: $background-lead;
+}

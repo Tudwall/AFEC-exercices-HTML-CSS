@@ -1,0 +1,26 @@
+main {
+	display: grid;
+	justify-content: space-around;
+}
+
+.item1 {
+	background-color: blue;
+	grid-column: span 3;
+}
+
+.item2 {
+	background-color: red;
+	grid-column: span 1;
+	grid-row: span 1;
+}
+
+.item3 {
+	background-color: green;
+	grid-column: span 2;
+	grid-row: span 1;
+}
+
+.item4 {
+	background-color: purple;
+	grid-column: span 3;
+}

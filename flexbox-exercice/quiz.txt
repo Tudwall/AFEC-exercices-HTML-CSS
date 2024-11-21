@@ -1,0 +1,29 @@
+Partie 1:
+
+Théorique:
+1. justify-content permet d'arranger les éléments de différentes façons horizontalement en row et verticalement en column.
+
+2. flex-direction: column sert à changer le sens du flex, en mettant les éléments en colonne.
+
+Pratique:
+1. space-around met les éléments avec de l'espace entre chaque.
+
+space-between colle les éléments au bord de la section et met des espaces égaux entre eux.
+
+space-evenly met des espaces égaux entre les éléments et les bord de la section.
+
+center les colle tous au centre.
+
+start les mets au début de la section et end à la fin.
+
+2. J'ai testé center pour mettre les boites au centre avec align-items.
+
+Partie 2:
+
+Théorique:
+1. flex-grow change le facteur d'agrandissement de l'élément, tandis que flex-shrink change le facteur de rétrécissement de l'élément.
+
+2. flex-basis influe sur la valeur de départ de la boite, et est pris en compte pour l'agrandissement ou le rétrécissement.
+
+Pratique:
+2. flex-shrink va réduire la taille de l'élément jusqu'à ce qu'il fasse sa taille minimum.

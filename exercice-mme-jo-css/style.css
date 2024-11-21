@@ -1,0 +1,103 @@
+header > nav {
+	position: sticky;
+}
+
+header > nav > ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+header > nav > ul > li {
+	padding: 0.25%;
+	list-style-type: none;
+}
+
+header > nav > ul > li > a {
+	text-decoration: none;
+	color: black;
+}
+
+.wrapper:nth-child(2) {
+	display: flex;
+	flex-direction: row;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	overflow: hidden;
+}
+
+.blog > h2 {
+	width: 100%;
+	text-align: right;
+}
+
+.blog-posts {
+	text-align: right;
+}
+
+.sticker {
+	position: relative;
+	background-color: red;
+	top: 20%;
+	left: -30%;
+	transform: rotate(-45deg);
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#portfolio {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: gray;
+	border-radius: 25px;
+	padding: 0.25em;
+}
+
+#portfolio > h2 {
+	width: 100%;
+	text-align: center;
+}
+
+#portfolio > article {
+	background-color: red;
+	border: 2px solid black;
+	width: 33%;
+	margin: auto;
+}
+
+#portfolio > article:nth-child(n + 1):nth-child(-n + 4) {
+	border-radius: 25px;
+	background-color: green;
+}
+
+#portfolio > article:nth-child(5)::after {
+	background-color: orange;
+	position: relative;
+	content: "Mon contenu";
+	top: 25%;
+	opacity: 75%;
+}
+
+.wrapper:nth-child(3) {
+	display: flex;
+	flex-direction: row;
+	background-color: orange;
+}
+
+.wrapper:nth-child(3) > .wrapper:nth-child(3) > aside {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	flex-grow: 1;
+}
+
+.wrapper:nth-child(3) > aside > article {
+	text-align: right;
+}

@@ -1,0 +1,7 @@
+@import "variables";
+
+@mixin stat-card-colors($color) {
+	background-color: $color;
+	color: lighten($color, 50%);
+	border: 2px solid darken($color, 20%);
+}

@@ -1,0 +1,33 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-card, .profile-card--lead, .profile-card--design, .profile-card--design--lead, .profile-card--dev, .profile-card--dev--lead {
+  border-radius: 25px;
+  padding: 0.5em;
+  text-align: center;
+  margin: 0.5em;
+}
+
+.profile-card--dev, .profile-card--dev--lead {
+  border: 2px solid grey;
+  background-color: #6ac200;
+}
+.profile-card--dev--lead {
+  border: 2px solid #3775f1;
+}
+
+.profile-card--design, .profile-card--design--lead {
+  border: 2px solid grey;
+  background-color: #ffcc00;
+}
+.profile-card--design--lead {
+  border: 2px solid #3775f1;
+}
+
+.profile-card--lead {
+  border: 2px solid #3775f1;
+  background-color: #3775f1;
+}/*# sourceMappingURL=style.css.map */

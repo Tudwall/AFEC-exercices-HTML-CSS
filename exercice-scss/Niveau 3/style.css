@@ -1,0 +1,129 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.stat-card-1 {
+  border-radius: 25px;
+  box-shadow: 0 0 4px black;
+  padding: 1.5em;
+  width: 10%;
+}
+
+.users {
+  background-color: yellow;
+  color: white;
+  border: 2px solid #999900;
+}
+
+.products {
+  background-color: red;
+  color: white;
+  border: 2px solid #990000;
+}
+
+.sales {
+  background-color: blue;
+  color: white;
+  border: 2px solid #000099;
+}
+
+.revenue {
+  background-color: green;
+  color: #80ff80;
+  border: 2px solid #001a00;
+}
+
+.stat-card-2 {
+  border-radius: 25px;
+  box-shadow: 0 0 4px black;
+  padding: 1.5em;
+  width: 10%;
+}
+
+.users {
+  background-color: yellow;
+  color: white;
+  border: 2px solid #999900;
+}
+
+.products {
+  background-color: red;
+  color: white;
+  border: 2px solid #990000;
+}
+
+.sales {
+  background-color: blue;
+  color: white;
+  border: 2px solid #000099;
+}
+
+.revenue {
+  background-color: green;
+  color: #80ff80;
+  border: 2px solid #001a00;
+}
+
+.stat-card-3 {
+  border-radius: 25px;
+  box-shadow: 0 0 4px black;
+  padding: 1.5em;
+  width: 10%;
+}
+
+.users {
+  background-color: yellow;
+  color: white;
+  border: 2px solid #999900;
+}
+
+.products {
+  background-color: red;
+  color: white;
+  border: 2px solid #990000;
+}
+
+.sales {
+  background-color: blue;
+  color: white;
+  border: 2px solid #000099;
+}
+
+.revenue {
+  background-color: green;
+  color: #80ff80;
+  border: 2px solid #001a00;
+}
+
+.stat-card-4 {
+  border-radius: 25px;
+  box-shadow: 0 0 4px black;
+  padding: 1.5em;
+  width: 10%;
+}
+
+.users {
+  background-color: yellow;
+  color: white;
+  border: 2px solid #999900;
+}
+
+.products {
+  background-color: red;
+  color: white;
+  border: 2px solid #990000;
+}
+
+.sales {
+  background-color: blue;
+  color: white;
+  border: 2px solid #000099;
+}
+
+.revenue {
+  background-color: green;
+  color: #80ff80;
+  border: 2px solid #001a00;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+Partie 1:
+
+1. grid-template-columns permet de définir la quantité de colonnes.
+2. repeat(3, 1fr) génère trois colonnes qui font chacune une fraction de la page.
+    
+    Pratique:
+    1. En modifiant le nombre de colonnes, les éléments entrent ou sortent de la deuxième ligne automatiquement.
+
+    2. gap permet de définir l'espace entre les éléments, j'ai testé 10, 15, et 20%;
+
+Partie 2:
+
+1. grid-template-areas permet de "dessiner" un schéma de la page en associant les valeurs de grid-area de chaque élément avec leur position dans la page et la place qu'ils doivent occuper.
+
+2. grid-column: span 2 permet de dire à un élément d'occuper deux colonnes

@@ -1,0 +1,8 @@
+@import "variables";
+
+@mixin card {
+	border-radius: 25px;
+	padding: 0.5em;
+	text-align: center;
+	margin: 0.5em;
+}

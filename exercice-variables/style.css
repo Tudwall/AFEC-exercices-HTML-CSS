@@ -1,0 +1,10 @@
+@import url(variables.css);
+
+header {
+	background-color: var(--main-color);
+}
+
+p {
+	color: var(--secondary-color);
+	border: var(--solid-red-border);
+}

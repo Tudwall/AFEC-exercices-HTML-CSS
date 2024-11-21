@@ -1,0 +1,10 @@
+@import "variables";
+
+@mixin card($color) {
+	background-color: $color;
+	border-radius: 25px;
+	box-shadow: 0 0 4px;
+	padding: 0.5em;
+	width: 300px;
+	margin: 1rem;
+}

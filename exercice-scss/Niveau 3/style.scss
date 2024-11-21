@@ -1,0 +1,29 @@
+@import "mixins";
+@import "variables";
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+}
+
+@for $i from 1 through 4 {
+	.stat-card-#{$i} {
+		border-radius: 25px;
+		box-shadow: 0 0 4px black;
+		padding: 1.5em;
+		width: 10%;
+	}
+	.users {
+		@include stat-card-colors($users-color);
+	}
+	.products {
+		@include stat-card-colors($products-color);
+	}
+	.sales {
+		@include stat-card-colors($sales-color);
+	}
+	.revenue {
+		@include stat-card-colors($revenue-color);
+	}
+}

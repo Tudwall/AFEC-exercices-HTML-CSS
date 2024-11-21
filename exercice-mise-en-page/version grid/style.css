@@ -1,0 +1,61 @@
+body {
+	display: grid;
+	grid-template-areas:
+		"head head head"
+		"aside main section"
+		"footer footer footer";
+}
+
+header {
+	position: sticky;
+	grid-area: head;
+}
+
+nav {
+	background-color: yellow;
+}
+
+nav > ul {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+nav > ul > li {
+	list-style-type: none;
+	text-align: center;
+}
+
+aside {
+	background-color: red;
+	grid-area: aside;
+}
+
+main {
+	grid-area: main;
+	background-color: green;
+}
+
+article {
+	text-align: center;
+	color: white;
+}
+
+h2,
+h3 {
+	color: wheat;
+}
+
+article > ul {
+	text-align: left;
+}
+
+section {
+	grid-area: section;
+	background-color: aqua;
+}
+
+footer {
+	background-color: orange;
+	grid-area: footer;
+	text-align: right;
+}
